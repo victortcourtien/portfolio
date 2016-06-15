@@ -1,0 +1,61 @@
+
+
+
+.flexbox {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.two {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+/*
+
+// Extra small devices (portrait phones, less than 34em)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 34em and up)
+*/
+
+
+
+@media (min-width: 34em) {
+	
+	body {
+		background-color: green;
+	}
+}
+/*
+
+// Medium devices (tablets, 48em and up)
+*/
+@media (min-width: 48em) { 
+	
+	body {
+		background-color: blue;
+	}
+	
+}
+
+/* // Large devices (desktops, 62em and up) */
+@media (min-width: 62em) { 
+	body {
+		background-color: yellow;
+	}
+	 }
+
+/* // Extra large devices (large desktops, 75em and up) */
+@media (min-width: 75em) { 
+	
+	body {
+		background-color: purple;
+	}
+}
